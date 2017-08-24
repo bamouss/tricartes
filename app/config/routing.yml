@@ -1,0 +1,7 @@
+tricarte:
+    resource: "@TricarteBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
